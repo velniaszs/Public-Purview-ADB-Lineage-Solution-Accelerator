@@ -1,15 +1,6 @@
 name: Build and Release
 
 on:
-  create:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-    paths:
-      - '**.cs'
-      - '**.csproj'
-      - 'tests/jobdefs/'
-      - 'tests/spark-apps/'
   workflow_dispatch:
 
 env:
