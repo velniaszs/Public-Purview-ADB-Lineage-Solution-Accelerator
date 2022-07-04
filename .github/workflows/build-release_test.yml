@@ -1,4 +1,4 @@
-name: Build and Release testt
+name: Build and Release testtt
 
 on:
   create:
